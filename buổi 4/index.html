@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="d-flex">
+        <nav class="navbar navbar-vertical bg-dark w-20 h-screen overflow-auto">
+            <div class="flex-column w-100 align-items-center">
+                <a href="#" class="navbar-brand navbar-dark">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/55307694d1a6b107d2d87c838a1aaede85cd3d84/66f18/assets/images/logo-dark.svg" alt="logo" class="navbar-brand-img logo-light logo-large">
+                </a>
+                <div class="collapse navbar-collapse d-flex flex-column">
+                    <ul class="navbar-nav mb-lg-7 d-flex flex-column">
+                        <li class="dropdown nav-item text-light px-2 py-1">
+                            <a data-toggle="collapse" href="#dashboardCollapse" role="button" aria-expanded="false" aria-controls="dashboardCollapse" class="nav-link d-flex align-items-center collapsed">
+                                <svg viewBox="0 0 24 24" class="nav-link-icon" height="18" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M3.753,13.944v8.25h6v-6a1.5,1.5,0,0,1,1.5-1.5h1.5a1.5,1.5,0,0,1,1.5,1.5v6h6v-8.25" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                                <path d="M.753,12.444,10.942,2.255a1.5,1.5,0,0,1,2.122,0L23.253,12.444" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+                                <span class="ml-2">
+                                    <span class="mr-2">Dashboards</span> 
+                                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <div class="collapse" id="dashboardCollapse" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link active">Default</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">E-commerce</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown nav-item text-light px-2 py-1">
+                            <a data-toggle="collapse" href="#pagesCollapse" role="button" aria-expanded="false" aria-controls="pagesCollapse" class="nav-link d-flex align-items-center collapsed">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="nav-link-icon" height="18" width="18">
+                                    <defs><style>.a{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style></defs>
+                                    <title>common-file-double-1</title>
+                                    <path class="a" d="M17.25,23.25H3.75a1.5,1.5,0,0,1-1.5-1.5V5.25"></path>
+                                    <rect class="a" x="5.25" y="0.75" width="16.5" height="19.5" rx="1" ry="1"></rect>
+                                </svg>
+                                <span>
+                                    <span class="mx-2">Pages</span> 
+                                    <i class="fa-sharp fa-solid fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <div class="collapse" id="pagesCollapse" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">Account</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">User</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">Pricing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">Wizard</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">Help Center</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">Invoice</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">API Keys</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link ">Maintenance</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
