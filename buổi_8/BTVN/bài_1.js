@@ -27,4 +27,14 @@ for(let i = 0; i<people.length; i++){
 //3,
 for (let i = 0; i < people.length; i++) {
     console.log(people[i].firstName + " " + people[i].lastName);
-}
+} 
+
+//5,
+let departments = {};
+
+people.forEach((e) => {
+    if (departments[e.department] == null) 
+        departments[e.department] = 0;
+    departments[e.department] += 1;
+})
+console.log(departments);
